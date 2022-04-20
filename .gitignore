@@ -1,0 +1,5 @@
+# ignore .terraform directory
+.terraform
+
+# sensitive variables
+secret.tfvars 
