@@ -8,7 +8,7 @@ This was created as part of a GCP learning project. The goal was to deploy a sim
 
 ### Prerequisite
 - [Terraform](https://www.terraform.io/)
-  - You will need basic Terraform knowledge. Eg. Usage of `fmt`, `validate` and `apply` commands
+  - You will need basic Terraform knowledge. Eg. Usage of `fmt`, `init`, `validate` and `apply` commands
 - Create a service account on your GCP project
 - Download the JSON key for the service account. There is likely a better (and safer) way to do this. I do not recommend that you put the key file in the project directory, to avoid committing the key by accident.
 - Run `cp .secret.tfvars.template .secret.tfvars`. This file contains values that specific to your project.
